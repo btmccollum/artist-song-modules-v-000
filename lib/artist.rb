@@ -26,7 +26,7 @@ class Artist
   # def self.reset_all
   #   self.all.clear
   # end
-  # 
+  #
   # #returns the number of Artist objects that have been instantiated
   # def self.count
   #   @@artists.count
