@@ -22,15 +22,15 @@ class Artist
     @@artists
   end
 
-  #clears out the class variable array
-  def self.reset_all
-    self.all.clear
-  end
-
-  #returns the number of Artist objects that have been instantiated
-  def self.count
-    @@artists.count
-  end
+  # #clears out the class variable array
+  # def self.reset_all
+  #   self.all.clear
+  # end
+  # 
+  # #returns the number of Artist objects that have been instantiated
+  # def self.count
+  #   @@artists.count
+  # end
 
   #allows user to add a song for the specified Artist object and stores the song, and tells the song that it belongs to this instance of arttist
   def add_song(song)
