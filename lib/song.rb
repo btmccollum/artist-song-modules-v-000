@@ -23,9 +23,9 @@ class Song
   end
 
   #clears out the class variable array of all instantiated Song objects
-  def self.reset_all
-    @@songs.clear
-  end
+  # def self.reset_all
+  #   @@songs.clear
+  # end
 
   #changes the name to all lowercase and subs all white space for '-'
   def to_param
@@ -33,9 +33,9 @@ class Song
   end
 
   #provides a count of all Song objects instantiated
-  def self.count
-    self.all.count
-  end
+  # def self.count
+  #   self.all.count
+  # end
 
   #returns a list of all Song objects that have been instantiated
   def self.all
